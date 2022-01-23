@@ -1,0 +1,24 @@
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">BlazorWithFirestore</a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#" text-align="right">About</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-3">
+        <a routerLink="info" ><span class="glyphicon glyphicon-home">&nbsp;Home</span></a>
+  <br/><br/>
+  <a routerLink="empdata"><span class="glyphicon glyphicon-list" background-color="blue">&nbsp;Employee Data</span></a>
+      </div>
+      <div class="col-sm-6">
+         <router-outlet></router-outlet>
+      </div>
+      
+    </div>
+  </div>
